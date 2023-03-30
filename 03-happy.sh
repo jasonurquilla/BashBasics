@@ -7,14 +7,13 @@ if [ "$answer" = "yes" ]; then
    echo "Smile :)"
 else
    echo "Still Smile :)";
-echo "What day is it today?"
+
+echo "What day is it today?????"
 read day
-
-if ["$day" = "saturday" ] || [ "$day" = "sunday "];then
+if ["$day" = "Saturday"] || ["$day" = "Sunday"]; then
 echo "It's the weekend!"
-else 
+else
 echo "It's a weekday."
-
 fi
 
 # here are the other string comparison operators
